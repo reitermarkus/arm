@@ -14,4 +14,3 @@ clean:
 .PHONY: run
 run: $(PROGRAM)
 	qemu-arm $^; echo $$?
-
